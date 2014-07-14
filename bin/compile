@@ -44,11 +44,6 @@ echo " version $(maven_version) installed"
 #  echo " done"
 #fi
 
-if [ -n $GEMS ]; then
-  status "Installing Gems..."
-  install_gems $CACHE_DIR $GEMS
-fi
-
 cd $BUILD_DIR
 
 BUILDCMD="mvn -B -Duser.home=$BUILD_DIR -Dmaven.repo.local=$CACHE_DIR/.m2/repository -DskipTests=true -U clean install"

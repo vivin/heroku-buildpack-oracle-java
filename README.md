@@ -43,10 +43,6 @@ Config vars can be set using the Heroku CLI:
 
 * `JCE`: JCE Unlimited Strength  
   `JCE="true"` will download and apply the JCE Unlimited Strength policy files
-* `GEMS`: Ruby gems  
-  `GEMS="sass compass"` will install sass and compass Ruby gems  
-  (gems are only available at slug compilation time)
-
 
 License
 -------
