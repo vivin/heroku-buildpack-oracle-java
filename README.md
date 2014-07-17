@@ -33,17 +33,6 @@ The buildpack will detect `pom.xml` in the project root folder and executes
 maven with `clean` and  `install` goals to create the executable.
 
 
-Configuration
--------------
-
-Different features of the buildpack can be configured with Heroku config vars.
-Config vars can be set using the Heroku CLI:
-
-    $ heroku config:set VAR="value"
-
-* `JCE`: JCE Unlimited Strength  
-  `JCE="true"` will download and apply the JCE Unlimited Strength policy files
-
 License
 -------
 
