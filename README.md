@@ -17,7 +17,7 @@ Usage
     $ ls
     Procfile  pom.xml  src
 
-    $ heroku apps:create example --buildpack https://github.com/trautonen/heroku-buildpack-oracle-java
+    $ heroku apps:create example --buildpack https://github.com/vivin/heroku-buildpack-oracle-java
 
     $ git push heroku master
     ...
